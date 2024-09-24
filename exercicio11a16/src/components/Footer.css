@@ -1,0 +1,63 @@
+.footer {
+    background-color: #282c34;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .member-list {
+    list-style-type: none; 
+    padding: 0;
+  }
+  
+  .member {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    margin: 10px 0; /
+  }
+  
+  .avatar {
+    border-radius: 50%; 
+    margin-right: 10px; 
+  }
+  
+  .member-info {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+  }
+  
+  .member-name {
+    font-weight: bold; 
+  }
+  
+  .linkedin-link {
+    color: #0077b5; 
+    text-decoration: none; 
+  }
+  
+  .linkedin-link:hover {
+    text-decoration: underline; 
+  }
+  
+  @media (min-width: 576px) {
+    .footer {
+      padding: 30px;
+    }
+  
+    .member-name {
+      font-size: 1.1rem; 
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .footer {
+      padding: 40px;
+    }
+  
+    .member-name {
+      font-size: 1.2rem;
+    }
+  }
+  

@@ -1,0 +1,56 @@
+.hero {
+    background-image: url('https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2024%2F09%2F16%2Fnike-zoom-vomero-5-dark-stucco-hf1553-002-release-info-000.jpg?fit=max&cbr=1&q=90&w=750&h=500');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    position: relative;
+  }
+  
+  .hero-content {
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .hero h1 {
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  .hero p {
+    font-size: 1rem;
+  }
+  
+  @media (min-width: 576px) {
+    .hero {
+      height: 400px;
+    }
+  
+    .hero h1 {
+      font-size: 2.5rem;
+    }
+  
+    .hero p {
+      font-size: 1.2rem;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .hero {
+      height: 500px;
+    }
+  
+    .hero h1 {
+      font-size: 3rem;
+    }
+  
+    .hero p {
+      font-size: 1.5rem;
+    }
+  }
+  
